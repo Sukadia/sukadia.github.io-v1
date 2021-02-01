@@ -30,7 +30,7 @@
                   enabled: false,
                   greetings: "Sukadia | Command Terminal",
                   keypress: function(e) {
-                      if (e.which == 124) {
+                      if (e.which == 92) {
                           return false;
                       }
                   }
@@ -43,7 +43,7 @@
               self.terminal = this.find('.td').terminal(eval,settings);
               var focus = false;
               $(document.documentElement).keypress(function(e) {
-                  if (e.charCode == 124) {
+                  if (e.charCode == 92 && e.shiftKey == true) {
                       self.slideToggle("fast");
                       self.terminal.command_line.set("");
                       self.terminal.focus(focus = !focus);
