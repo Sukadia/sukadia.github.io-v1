@@ -13,7 +13,8 @@
     <h1>hi</h1>
     <p>welcome to my website<br><br>pretty quaint if i do say so myself<br><br><br><br></p>
     <script>
-      (function($) {
+      $(document).ready(function() {
+        (function($) {
           $.fn.tilda = function(eval, options) {
               if ($('body').data("tilda")) {
                   return $('body').data("tilda").terminal;
@@ -55,6 +56,7 @@
               this.hide();
               return self;
           };
+        });
       })(jQuery);
     </script>
   </body>
