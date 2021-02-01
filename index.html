@@ -6,13 +6,6 @@
     <link rel="stylesheet" href="style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js"></script>
-  </head>
-  <body>
-    <a href="pages/youclickedonthecat.html">
-      <img src="catlook.jpg" width = "483" height = "644"/>
-    </a>
-    <h1>hi</h1>
-    <p>welcome to my website<br><br>pretty quaint if i do say so myself<br><br><br><br></p>
 
     <script>
       (function($) {
@@ -56,14 +49,19 @@
             return self;
         };
       })(jQuery);
-    </script>
 
-    <script>
       jQuery(document).ready(function($) {
         $('#tilda').tilda(function(command, terminal) {
             terminal.echo("\"" + command + "\" is not a valid command.");
         });
       });
     </script>
+  </head>
+  <body>
+    <a href="pages/youclickedonthecat.html">
+      <img src="catlook.jpg" width = "483" height = "644"/>
+    </a>
+    <h1>hi</h1>
+    <p>welcome to my website<br><br>pretty quaint if i do say so myself<br><br><br><br></p>
   </body>
 </html>
