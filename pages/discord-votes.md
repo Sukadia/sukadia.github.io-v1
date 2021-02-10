@@ -1,0 +1,24 @@
+<center>
+
+###### A spiritual successor to the Everyone Votes Channel on the Wii, Discord Votes is made to recreate that experience with a daily Discord-wide poll that anyone in your server can vote on.
+
+[Invite Discord Votes](https://discord.com/api/oauth2/authorize?client_id=805922495705251891&permissions=117824&scope=bot){: .btn .btn-purple }
+
+## What does it do?
+Discord Votes sends out a daily poll and tallies everyone's votes from all across Discord.
+
+## What does it look like?
+###### The Discord-wide poll for February 9th, 2021:<br><br><img src="https://cdn.discordapp.com/attachments/590347266402025492/808868642321334272/Discord-Votes-PollExample.PNG" width="300"/><br>
+###### The results for February 7th, 2021:<br>
+<img src="https://cdn.discordapp.com/attachments/590347266402025492/808870019416588298/Discord-Votes-PollResultExample.PNG" width="300"/>
+
+## How do I set up the bot?
+All you need to use is the `dp!setup` command in the channel you'd like!<br><br>
+<img src="https://cdn.discordapp.com/attachments/590347266402025492/808862612841693184/Discord-Votes-Setup.gif" width="500"/>
+
+## Simple Configuration
+Configure the bot through an interactive menu; no command lookup required.<br><br>
+<img src="https://cdn.discordapp.com/attachments/590347266402025492/808868639188058138/Discord-Votes-ConfigCommand.PNG" width="300"/><br>
+<img src="https://cdn.discordapp.com/attachments/590347266402025492/808868640854114304/Discord-Votes-ConfigOptions.PNG" width="500"/>
+
+</center>
